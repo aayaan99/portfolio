@@ -167,11 +167,11 @@ body {
 }
 
 .content .experience {
-  background-image: url(/assets/expertise.jpg);
+  background-image: url(./assets/exp.jpg);
 }
 
 .content .expertise {
-  background-image: url(./assets/expertise.jpeg);
+  background-image: url(./assets/expertise.jpg);
 }
 
 .content .education {
@@ -179,7 +179,7 @@ body {
 }
 
 .content .skills {
-  background-image: url(./assets/skills.jpeg);
+  background-image: url(./assets/skills.jpg);
 }
 
 .content h1 {
