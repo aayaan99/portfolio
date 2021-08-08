@@ -167,19 +167,19 @@ body {
 }
 
 .content .experience {
-  background-image: url(./assets/purdue.jpg);
+  background-image: url(assets/exp.jpg);
 }
 
 .content .expertise {
-  background-image: url(./assets/expertise.jpg);
+  background-image: url(assets/expertise.jpg);
 }
 
 .content .education {
-  background-image: url(./assets/purdue.jpeg);
+  background-image: url(assets/purdue.jpeg);
 }
 
 .content .skills {
-  background-image: url(./assets/skills.jpg);
+  background-image: url(assets/skills.jpg);
 }
 
 .content h1 {
