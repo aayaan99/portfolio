@@ -296,13 +296,7 @@ body {
   }
 
   .content .image {
-    border-radius: 0.5vw;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: scroll;
-    background-position: center;
-    width: 100%;
+    width: 80%;
     height: 50vh;
   }
 
