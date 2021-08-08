@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #2f434a;
+  background-color: #fff;
+}
+
+.title {
+  background-image: linear-gradient(
+    to right,
+    #185354,
+    #055c5d,
+    #036661,
+    #017670,
+    #039088,
+    #05968c,
+    #08978d
+  );
+  position: relative;
+  padding: 5%;
+  width: 96%;
+  border-bottom-left-radius: 10vw;
+  border-bottom-right-radius: 0vw;
+  border-top-right-radius: 1vw;
+  margin: 1% 2%;
+  box-shadow: 0 3vw 3vw rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.title h1 {
+  padding-left: 5%;
+  padding-top: 3%;
+  font-size: 3.5rem;
+  color: #ffffff;
+}
+
+.title p {
+  width: 40%;
+  padding-left: 5%;
+  color: #ffffff;
+}
+
+.title p a {
+  text-decoration: none;
+  color: lightgreen;
+}
+
+.title .avatar-btn img {
+  width: 80%;
+  height: 80%;
+  opacity: 0.9;
+  border-radius: 50%;
+  border: 3px solid #eee;
+}
+
+.title .avatar-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 20%;
+  top: 20%;
+  right: 5%;
+}
+
+.title .avatar-btn button {
+  font-size: 1.5vw;
+  color: #eee;
+  border: none;
+  background-color: transparent;
+  padding: 0.5%;
+  margin-top: 8%;
+}
+
+.title .avatar-btn button a {
+  text-decoration: none;
+  color: #eee;
+  text-shadow: 1vw 1vw 10px rgba(0, 0, 0, 0.3);
+}
+
+/* .title::after {
+  background-color: #b5b5b5;
+  width: 50px;
+  height: 50px;
+  content: "";
+  position: absolute;
+  bottom: -7%;
+  right: 47.5%;
+  transform: rotate(45deg);
+  
+} */
+
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.navbar ul li {
+  list-style: none;
+  padding: 1%;
+}
+
+.navbar ul li + li {
+  margin-left: 3%;
+}
+
+.navbar ul li a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #333;
+  text-shadow: 1vw 0.5vw 8px rgba(0, 0, 0, 0.3);
+  transition: letter-spacing, 0.4s;
+}
+
+.navbar ul li a:hover {
+  letter-spacing: 0.1vw;
+  border-bottom: 1px solid #002366;
+}
+
+.navbar ul li a:active {
+  letter-spacing: 0.1vw;
+  border-bottom: 1px solid #002366;
+}
+
+
+.content {
+  border-radius: 0.5vw;
+  box-shadow: -0.5vw 0.5vw 10px rgba(0, 0, 0, 0.3);
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content p {
+  padding: 2%;
+}
+
+.content .green-heading {
+  color: green;
+  font-weight: 500;
+}
+
+.content .image {
+  border-radius: 0.5vw;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+
+.content .experience {
+  background-image: url(./assets/exp.jpg);
+}
+
+.content .expertise {
+  background-image: url(./assets/expertise.jpg);
+}
+
+.content .education {
+  background-image: url(./assets/purdue.jpeg);
+}
+
+.content .skills {
+  background-image: url(./assets/skills.jpg);
+}
+
+.content h1 {
+  padding-left: 2%;
+  text-align: left;
+  font-size: 5rem;
+  letter-spacing: 0.1vw;
+  color: #333;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  width: 100%;
+  background-color: #333;
+}
+
+.socials {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .socials a {
+  text-decoration: none;
+  color: #eee;
+  font-size: 3vw;
+}
+
+.footer .socials .tooltip .tooltiptext {
+  visibility: hidden;
+  width: 10%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.5vw;
+  padding: 0.5%;
+  position: absolute;
+  z-index: 1;
+}
+
+.footer .socials .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.footer .contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .contact img {
+  width: 3%;
+  height: 3%;
+  margin-left: 2%;
+}
+
+.footer .contact span {
+  font-size: 2vw;
+  margin-left: 1%;
+  color: #eee;
+}
+
+/* //Media Queries// */
+
+@media only screen and (max-width: 500px) {
+  .navbar ul li a {
+    font-size: 0.8rem;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .title h1 {
+    padding-left: 5%;
+    padding-top: 3%;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+
+  .title p {
+    font-size: 0.5rem;
+    width: 40%;
+    padding-left: 5%;
+    color: #ffffff;
+  }
+
+  .title img {
+    top: 10%;
+    width: 25%;
+    height: 15vh;
+  }
+
+  .title .avatar-btn {
+    width: 40%;
+  }
+
+  .title .avatar-btn button {
+    font-size: 3vw;
+  }
+
+  .title::after {
+    right: 42.5%;
+    width: 30px;
+    height: 5vh;
+  }
+}
