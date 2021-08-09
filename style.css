@@ -289,14 +289,13 @@ body {
 
   .title .avatar-btn {
     width: 40%;
+    top:  20%;
+    right: 3%;
   }
 
   .title .avatar-btn button {
     font-size: 3vw;
   }
 
-  .content .image {
-    width: 80%;
-    height: 50vh;
-  }
 
+}
