@@ -195,20 +195,20 @@ footer .socials .tooltip:hover .tooltiptext {
 }
 
 footer .contact {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding-left: 3%;
+  width: 50%;
 }
 
 footer .contact img {
   width: 3%;
   height: 3%;
-  margin-left: 2%;
+  margin-right: 2%;
+  margin-left: 5%;
 }
 
-footer .contact span {
-  font-size: 2vw;
-  margin-left: 1%;
+footer .contact a {
+  font-size: 1.4vw;
+  margin: 1%;
   color: #eee !important;
 }
 
@@ -327,7 +327,11 @@ footer p {
   }
 
   footer p .footer-paragraph {
-    size: 0.8rem;
+    size: 0.6rem;
+  }
+
+  footer .contact a {
+    font-size: 0.2rem;
   }
 
 }
