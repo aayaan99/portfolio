@@ -209,7 +209,7 @@ footer .contact img {
 footer .contact span {
   font-size: 2vw;
   margin-left: 1%;
-  color: #eee;
+  color: #eee !important;
 }
 
 footer p {
