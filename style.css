@@ -372,7 +372,7 @@ footer p {
 
 }
 
-@media only screen and (max-height: 650px) {
+@media only screen and (max-height: 700px) {
 
 .head {
   height: 80vh;
