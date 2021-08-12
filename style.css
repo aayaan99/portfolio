@@ -322,27 +322,28 @@ footer p {
 
 }
 
-@media only screen and (max-width: 310px) {
+@media only screen and (max-width: 370px) {
   
   .head h1 {
     font-size: 1rem;
   }
   
   .head p {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 
   .head .avatar img {
-    margin-top: 10%;
+    margin-top: 2%;
   }
 
   .head .avatar button {
     width: 30vw;
-    margin-bottom: 60%;
+    margin-bottom: 80%;
   }
 
   .head .avatar button a {
-    font-size: 0.8rem;
+    margin-bottom: 2%;
+    font-size: 0.5rem;
   }
 
   .head .avatar {
