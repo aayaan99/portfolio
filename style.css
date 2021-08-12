@@ -341,13 +341,13 @@ footer p {
   }
 
   .head .avatar button {
-    width: 30vw;
-    margin-bottom: 80%;
+    width: 20vw;
+    /* margin-bottom: 80%; */
   }
 
   .head .avatar button a {
     margin-bottom: 2%;
-    font-size: 0.5rem;
+    font-size: 0.9rem;
   }
 
   .head .avatar {
@@ -369,5 +369,12 @@ footer p {
     font-size: 0.2rem;
   }
 
+}
+
+@media only screen and (max-height: 530px) {
+
+.head {
+  height: 80vh;
+}
 }
 
