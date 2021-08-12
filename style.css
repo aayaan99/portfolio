@@ -74,7 +74,8 @@ html {
 
 .head button {
   margin-left: 3%;
-  margin-top: 10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
   color: #eee;
   border: none;
   background-color: transparent;
@@ -259,7 +260,7 @@ footer p {
 
   .head button {
     margin-left: 3%;
-    margin-top: 3%;
+    margin-top: 1%;
   }
   
   .head button a {
@@ -371,7 +372,7 @@ footer p {
 
 }
 
-@media only screen and (max-height: 530px) {
+@media only screen and (max-height: 650px) {
 
 .head {
   height: 80vh;
