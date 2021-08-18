@@ -98,7 +98,7 @@ html {
 }
 
 .nav-bar {
-  width: 90vw;
+  width: 90vw;  
   margin-left: 5%;
   border-bottom: solid 0.7px rgba(0, 0, 0, 0.2);
 }
@@ -335,7 +335,7 @@ footer p {
 @media only screen and (max-width: 370px) {
   
   .head {
-    height: 60vh;
+    height: 70%;
   }
 
   .head h1 {
@@ -379,5 +379,11 @@ footer p {
     font-size: 0.2rem;
   }
 
+}
+
+@media only screen and (max-height: 700px) {
+  .head {
+    height: 70%;
+  }
 }
 
